@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<style>
+    
+    .list1 > div {
+              
+    border-radius: 5px;
+    padding: 1em;
+
+                 }
+
+.list1{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        grid-gap:10px;
+        
+           
+    }
+
+.box1{
+    background-color: aqua;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    border:10px solid red;
+    margin-right: 10px;
+    grid-column:1/ 3;
+    grid-row:2;
+
+}
+
+
+.box2{
+    background-color:aqua;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    border-color:red;
+    margin-right: 10px;
+    grid-column:3;
+    grid-row:1/ 2;
+    
+}
+
+.box3{
+    background-color: aqua;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    border-color:red;
+    margin-right: 10px;
+}
+
+
+.box4{
+    background-color: aqua;font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    border-color:red;
+    margin-right: 10px;
+}
+.box5{
+    background-color: aqua;font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    border-color:red;
+    margin-right: 10px;
+}
+.box6{
+    background-color: aqua;font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    border-color:red;
+    margin-right: 10px;
+} 
+
+
+form {
+  display: table;
+  margin: 0 auto;
+}
+
+form div {
+  display: table-row;
+}
+
+form label, form input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+form label {
+  width: 200px;
+  padding-right: 5%;
+  text-align: right;
+}
+
+</style>
+</head>
+
+<body>
+<nav>
+    <a href="https://www.google.com/">GOOGLE </a>
+    <a href="https://www.w3schools.com">HTML references </a>
+    <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+    <a href="./banana21.jpg">Banana </a>
+</nav>
+
+<div class="list1">
+    <div class="box1"> A </div>
+    <div class="box2"> B </div>
+    <div class="box3"> C </div>
+    <div class="box4"> D </div>
+    <div class="box5"> F </div>
+    <div class="box6"> G </div>
+</div>
+
+
+<form>
+<div>
+    <label for ="fname">First name     </label>
+    <input type ="text" id="fname">
+</div>
+
+<div>
+    <label for ="lname">last name     </label>
+    <input type ="text" id="lname">
+</div>
+
+<div>
+    <label for ="age">Age     </label>
+    <input type ="text" id="age">
+</div>
+</form>
+
+
+</body>
+
+</html>
